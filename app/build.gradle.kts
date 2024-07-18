@@ -60,6 +60,10 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.room.compiler)
+    implementation(libs.junit.junit)
+    implementation(libs.firebase.firestore)
+
+    testImplementation ("org.mockito:mockito-core:2.18.3")
     testImplementation(libs.junit)
     testImplementation(libs.testng)
     androidTestImplementation(libs.androidx.junit)
